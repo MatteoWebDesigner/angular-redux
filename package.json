@@ -1,0 +1,37 @@
+{
+  "name": "angular-redux",
+  "version": "1.0.0",
+  "description": "more docs on http://redux.js.org/ tutorial: https://egghead.io/courses/getting-started-with-redux",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --inline --hot --progress --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatteoWebDesigner/angular-redux.git"
+  },
+  "author": "Matteo Gilardoni https://github.com/MatteoWebDesigner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatteoWebDesigner/angular-redux/issues"
+  },
+  "homepage": "https://github.com/MatteoWebDesigner/angular-redux#readme",
+  "dependencies": {
+    "angular": "^1.6.1",
+    "ng-redux": "^3.4.0-beta.1",
+    "redux": "^3.6.0",
+    "redux-logger": "^2.7.4"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-env": "^1.1.8",
+    "babel-register": "^6.18.0",
+    "html-webpack-plugin": "^2.26.0",
+    "path": "^0.12.7",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
